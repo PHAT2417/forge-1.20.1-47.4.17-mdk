@@ -1,11 +1,10 @@
 {
-	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
-	"textures": {
-		"0": "block/front-back",
-		"1": "block/Side",
-		"particle": "block/front-back"
-	},
+    "credit": "Made with Blockbench",
+    "textures": {
+        "0": "tutorial_mod:item/front_back",
+        "1": "tutorial_mod:item/side",
+        "particle": "tutorial_mod:item/front_back"
+    },
 	"elements": [
 		{
 			"name": "front",
