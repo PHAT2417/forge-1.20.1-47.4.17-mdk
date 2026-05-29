@@ -16,6 +16,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.xuantran.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 import net.xuantran.tutorialmod.block.ModBlocks;
+import net.xuantran.tutorialmod.item.ModCreativeModTabs;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TutorialMod.MOD_ID)
@@ -32,6 +33,7 @@ public class TutorialMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModTabs.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -73,4 +75,6 @@ public class TutorialMod
 
         }
     }
+
+    
 }

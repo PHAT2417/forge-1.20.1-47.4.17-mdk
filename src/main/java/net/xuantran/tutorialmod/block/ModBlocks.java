@@ -11,6 +11,7 @@ import net.minecraft.world.item.Item;
 import net.xuantran.tutorialmod.item.ModItems;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Blocks;
+import java.util.function.Supplier;
 
 
 public class ModBlocks {
@@ -26,7 +27,7 @@ public class ModBlocks {
         return toReturn;
     }
 
-    private static <T extends Block> RegistryObject<Item> registerBlock(String name, RegistryObject<T> block) {
+    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
