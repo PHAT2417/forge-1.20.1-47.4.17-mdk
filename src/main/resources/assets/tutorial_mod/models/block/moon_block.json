@@ -1,11 +1,9 @@
 {
-	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
-	"texture_size": [64, 64],
+	"parent": "minecraft:block/cube_all",
 	"textures": {
-		"0": "block/moon_block_texture",
-		"particle": "block/moon_block_texture"
-	},
+    	"0": "tutorial_mod:block/moon_block_texture",
+    	"particle": "tutorial_mod:block/moon_block_texture"
+},
 	"elements": [
 		{
 			"from": [0, 0, 0],

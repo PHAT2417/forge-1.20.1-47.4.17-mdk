@@ -1,6 +1,6 @@
 {
     "variants": {
-        "normal": [
+        "": [
         {
             "model": "tutorial_mod:block/moon_block"
         }
