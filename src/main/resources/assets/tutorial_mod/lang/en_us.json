@@ -1,3 +1,5 @@
 {
-  "item.tutorial_mod.moon_shackle": "Moon Shackle"
+  "item.tutorial_mod.moon_shackle": "Moon Shackle",
+
+  "block.tutorial_mod.moon_block": "Block of the Moon"
 }
