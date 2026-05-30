@@ -7,10 +7,10 @@
     ],
     "key": {
         "S": {
-            "item": "tutorialmod:moon_shackle"
+            "item": "tutorial_mod:moon_shackle"
         }
     },
     "result": {
-        "item": "tutorialmod:moon_block"
+        "item": "tutorial_mod:moon_block"
     }
 }

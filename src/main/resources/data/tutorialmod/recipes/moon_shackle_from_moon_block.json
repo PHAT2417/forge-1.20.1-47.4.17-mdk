@@ -1,13 +1,13 @@
 {
-    "type": "minecraft:crafting_shapless",
+    "type": "minecraft:crafting_shapeless",
     "category": "misc",
     "ingredients": [
         {
-            "item": "tutorialmod:moon_block"
+            "item": "tutorial_mod:moon_block"
         }
     ],
     "result": {
-        "item": "tutorialmod:moon_shackle",
+        "item": "tutorial_mod:moon_shackle",
         "count": 4
     }
 }
