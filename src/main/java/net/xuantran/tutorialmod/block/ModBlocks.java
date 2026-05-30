@@ -21,6 +21,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> MOON_BLOCK = registerBlock("moon_block", 
     () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)));
 
+    public static final RegistryObject<Block> MOON_ORE = registerBlock("moon_ore", 
+    () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

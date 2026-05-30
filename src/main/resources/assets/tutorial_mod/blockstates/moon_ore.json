@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "tutorial_mod:block/moon_ore"
+            }
+        ]
+    }
+}

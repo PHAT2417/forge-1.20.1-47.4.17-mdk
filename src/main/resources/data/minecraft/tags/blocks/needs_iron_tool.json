@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "tutorial_mod:moon_block"
+        "tutorial_mod:moon_block",
+        "tutorial_mod:moon_ore"
     ]
 }
