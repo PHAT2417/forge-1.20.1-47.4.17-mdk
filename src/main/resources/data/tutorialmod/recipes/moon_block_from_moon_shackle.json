@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "SS",
+        "SS"
+    ],
+    "key": {
+        "S": {
+            "item": "tutorialmod:moon_shackle"
+        }
+    },
+    "result": {
+        "item": "tutorialmod:moon_block"
+    }
+}
